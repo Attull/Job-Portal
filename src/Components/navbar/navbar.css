@@ -1,0 +1,88 @@
+
+
+/* CSS */
+.button-7,.button1 {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  /* box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset; */
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 3px 20px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  /* touch-action: manipulation; */
+  /* vertical-align: baseline; */
+  /* white-space: nowrap; */
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #4293d9;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+ color: green;
+}
+
+/*  ..........css for second button in navbar */
+
+
+
+.button1:hover,
+.button1:focus {
+  background-color: rgb(239, 70, 70);
+}
+
+.button1:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button1:active {
+ color: green;
+}
+
+.First-navbar{
+  margin-bottom: 60px;
+}
+
+nav{
+  background-color: cadetblue;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+/* .fourth {
+  // background: $yellow;
+  border-color: $yellow;
+  color: #fff;
+  background: {
+    image: linear-gradient(45deg,$yellow 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+  
+  &:hover {
+    background-position: 0;
+  }
+} */
