@@ -54,7 +54,7 @@ export default function Navbar() {
                   <li className="nav-item">
                   {/* <button className="button1" role="button"> */}
                     <Link to="/login" className="nav-link button1 text-white rounded">
-                      Login
+                      LogIn
                     </Link>
                     {/* </button> */}
                   </li>
